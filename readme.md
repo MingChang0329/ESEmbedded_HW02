@@ -64,6 +64,7 @@ Please take your note here.
 根據 ARM infomation center 敘述的'push''pop'用法設計main.s
 測試程式main.s ,mov三個值分別給r0,r1,r2 ,接著使用'push'指令將三個值存入記憶體 ,使用'pop'指令將其取出後放入r3,r4,r5 ,觀察其執行步驟 ,使用相同方法觀察不同順序之寫入方式是否會影響'push'及'pop'指令運作
 main.s
+![image](https://github.com/MingChang0329/ESEmbedded_HW02/blob/master/螢幕快照%202019-03-12%20下午4.27.09.png)
 
 
 
