@@ -66,6 +66,14 @@ Please take your note here.
 main.s
 ![image](https://github.com/MingChang0329/ESEmbedded_HW02/blob/master/螢幕快照%202019-03-12%20下午4.27.09.png)
 
+將 main.s 編譯並以 qemu 模擬
+![image](https://github.com/MingChang0329/ESEmbedded_HW02/blob/master/螢幕快照%202019-03-12%20下午8.44.42.png)
 
+'push'和'pop'指令皆正常運行
+![image](https://github.com/MingChang0329/ESEmbedded_HW02/blob/master/螢幕快照%202019-03-12%20下午8.45.02.png)
 
-q1 : The order of the registers in the 'push' and 'pop' range must in ascending      order . 
+'push'指令後方未按升冪排列時 ,出現錯誤
+![image](https://github.com/MingChang0329/ESEmbedded_HW02/blob/master/螢幕快照%202019-03-12%20下午8.45.14.png)
+
+3. 結果與討論
+'push'指令將後方暫存器內容堆疊入記憶體位址中 ,'pop'指令將記憶體中內容取出 ,放入指定之暫存器中 ,'push'指令後方暫存器需以升冪排列寫入 ,否則會出現錯誤
