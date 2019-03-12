@@ -57,5 +57,14 @@ This is the hw02 sample. Please follow the steps below.
 
 Please take your note here.
 
+1. 實驗目的
+撰寫簡易組與觀察'push''pop'兩指令
+2. 實驗步驟
+先將資料夾 gnu-mcu-eclipse-qemu 完整複製到 ESEmbedded_HW02 資料夾中
+根據 ARM infomation center 敘述的'push''pop'用法設計main.s
+測試程式main.s ,mov三個值分別給r0,r1,r2 ,接著使用'push'指令將三個值存入記憶體 ,使用'pop'指令將其取出後放入r3,r4,r5 ,觀察其執行步驟 ,使用相同方法觀察不同順序之寫入方式是否會影響'push'及'pop'指令運作
+main.s
+
+
 
 q1 : The order of the registers in the 'push' and 'pop' range must in ascending      order . 
