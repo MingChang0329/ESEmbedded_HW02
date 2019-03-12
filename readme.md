@@ -51,8 +51,11 @@ This is the hw02 sample. Please follow the steps below.
 
 --------------------
 
-- [x] **If you volunteer to give the presentation next week, check this.**
+- [] **If you volunteer to give the presentation next week, check this.**
 
 --------------------
 
 Please take your note here.
+
+
+q1 : The order of the registers in the 'push' and 'pop' range must in ascending      order . 

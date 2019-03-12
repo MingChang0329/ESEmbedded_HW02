@@ -8,8 +8,36 @@
 _start:
 	nop
 
+        //
+        //mov
+        //
+        mov r0, #100
+        mov r1, #101
+        mov r2, #102
+
+        //
+        //push
+        //
+        push {r0, r1, r2}
+
+        //
+        //pop
+        //
+        pop {r3, r4, r5}
+
+        //
+        //push
+        //
+        push {r2, r0, r1}
+
+        //
+        //pop
+        //
+        pop {r6, r7, r8}
+
+
 	//
-	//branch w/o link
+     	//branch w/o link
 	//
 	b	label01
 
